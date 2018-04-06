@@ -21,8 +21,6 @@ def word_substituter(string)
     dic_keys.each do |key|
       if word == key
         tweet_array[tweet_array.index(word)] = dictionary[key]
-        puts word
-        #puts tweet_array
       end
     end
   end
