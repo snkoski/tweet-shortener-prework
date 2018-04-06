@@ -23,7 +23,7 @@ def word_substituter(string)
     dic_keys.each do |key|
       
       if word == key
-        puts dictionary[key]
+        #puts dictionary[key]
         word = dictionary[key]
         puts word
         #puts tweet_array
