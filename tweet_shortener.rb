@@ -42,5 +42,5 @@ def selective_tweet_shortener(string)
   end
 end
 
-selective_tweet_shortener()
+#selective_tweet_shortener()
 #word_substituter("hello there guys")
