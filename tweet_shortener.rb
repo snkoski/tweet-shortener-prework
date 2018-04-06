@@ -24,7 +24,7 @@ def word_substituter(string)
       
       if word == key
         #puts dictionary[key]
-        dic_keys[word] = dictionary[key]
+        tweet_array[word] = dictionary[key]
         puts word
         #puts tweet_array
       end
