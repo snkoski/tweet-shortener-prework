@@ -34,4 +34,12 @@ def bulk_tweet_shortener(array)
   end
 end
 
+def selective_tweet_shortener(string)
+  if string.length > 140
+    puts word_substituter(string)
+  else
+    puts string
+  end
+end
+
 #word_substituter("hello there guys")
