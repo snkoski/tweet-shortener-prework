@@ -42,5 +42,5 @@ def selective_tweet_shortener(string)
   end
 end
 
-selective_tweet_shortener("hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you")
+selective_tweet_shortener("hello , how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you")
 #word_substituter("hello there guys")
