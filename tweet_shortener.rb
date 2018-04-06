@@ -24,7 +24,7 @@ def word_substituter(string)
       end
     end
   end
-  puts tweet_array
+ # puts tweet_array
 end
 
 #word_substituter("hello there guys")
