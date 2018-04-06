@@ -23,7 +23,6 @@ def word_substituter(string)
     dic_keys.each do |key|
       
       if word == key
-        puts "HMMMM"
         puts dictionary[key]
         word = dictionary[key]
         puts word
