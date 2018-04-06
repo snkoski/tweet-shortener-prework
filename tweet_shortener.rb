@@ -47,6 +47,8 @@ def shortened_tweet_truncator(string)
     short_string = word_substituter(string)
     
     short_string[0...140]
+  else
+    string
   end
   
 end
