@@ -18,12 +18,8 @@ def word_substituter(string)
   tweet_array = string.split
   dic_keys = dictionary.keys
   tweet_array.each do |word|
-    puts word
-    puts "FIRST EACH"
     dic_keys.each do |key|
-      
       if word == key
-        #puts dictionary[key]
         tweet_array[tweet_array.index(word)] = dictionary[key]
         puts word
         #puts tweet_array
