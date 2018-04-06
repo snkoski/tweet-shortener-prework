@@ -18,7 +18,7 @@ def word_substituter(string)
   tweet_array = string.split
   dic_keys = dictionary.keys
   tweet_array.each do |word|
-    #puts word
+    puts word
     dic_keys.each do |key|
       
       if word == key
