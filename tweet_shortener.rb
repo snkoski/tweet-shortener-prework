@@ -17,7 +17,6 @@ end
 def word_substituter(string)
   tweet_array = string.split
   dic_keys = dictionary.keys
-  #puts dic_keys
   tweet_array.each do |word|
     puts word
     dic_keys.each do |key|
