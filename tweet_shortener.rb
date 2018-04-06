@@ -36,11 +36,11 @@ end
 
 def selective_tweet_shortener(string)
   if string.length > 140
-    puts word_substituter(string)
+    word_substituter(string)
   else
-    puts string
+    string
   end
 end
 
-selective_tweet_shortener("hello , how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you hello, how are you")
+selective_tweet_shortener()
 #word_substituter("hello there guys")
